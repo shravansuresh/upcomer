@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Asap'), local('Asap-Regular'), url(http://themes.googleusercontent.com/static/fonts/asap/v1/-KZsao_xwBpcExaHoPH8_w.ttf) format('truetype');
+  }
+body {
+	margin: 0;
+    background-color: azure;
+  }
+
+.container{
+    
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #999999;
+}
+
+.navbar{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    padding-left: 12px;
+}
+.nav-link ul{
+    display: inline-flex;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 114px;
+    padding-top: 10px;
+}
+.home{
+    font-family: 'Asap', sans-serif;
+    font-size: 13pt;
+    color: #999999;
+    padding-top: 1px;
+    font-weight: bolder;
+}
+
+.about{
+    font-family: 'Asap', sans-serif;
+    font-size: 13pt;
+    color: #333333;
+    padding-top: 1px;
+    font-weight: bolder;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.icon{
+    padding-right: 3px;
+}
+.icon img{
+    margin-left: 20px;
+}
+.illustration{
+    display: flex;
+    justify-content: center;
+    margin: 0% 16%;
+    padding-top: 5%;
+}
+.illustration-content h6{
+    font-family: 'Asap', sans-serif;
+    color: #333333;
+    font-size: 30pt;
+    font-weight: bolder;
+    padding-bottom: 6%;
+}
+.illustration-content{
+    margin-right: 6%;
+}
+.illustration-content p{
+    font-family: 'Asap', sans-serif;
+    color: #999999;
+    font-size: 14pt;
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+.upcoming{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.upcoming h6{
+    font-family: 'Asap', sans-serif;
+    color: #ffffff;
+    font-size: 48pt;
+    padding-top: 7.5%;
+    margin-left: -6%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 3% 0%;
+}
+.footer a{
+    padding: 0px 7px;
+}

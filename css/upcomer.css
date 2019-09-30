@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Asap'), local('Asap-Regular'), url(http://themes.googleusercontent.com/static/fonts/asap/v1/-KZsao_xwBpcExaHoPH8_w.ttf) format('truetype');
+  }
+body {
+	margin: 0;
+    background-color: azure;
+  }
+
+.container{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1% 0%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    padding-left: 12px;
+}
+.nav-link ul{
+    display: inline-flex;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 114px;
+    padding-top: 10px;
+}
+.home{
+    font-family: 'Asap', sans-serif;
+    font-size: 13pt;
+    color: #333333;
+    padding-top: 1px;
+    font-weight: bolder;
+}
+
+.about{
+    font-family: 'Asap', sans-serif;
+    font-size: 13pt;
+    color: #999999;
+    padding-top: 1px;
+    font-weight: bolder;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.icon{
+    padding-right: 3px;
+}
+.icon img{
+    margin-left: 20px;
+}
+
+.sign-in{
+    padding-top: 35px;
+    background-image: url("../images/bg1_repeat.png");
+    height: 50%;
+    text-align: center;
+}
+.sign-in h1{
+    font-family: 'Asap', sans-serif;
+    margin: 0% 18%;
+    padding-top:30px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 52pt;
+}
+
+.sign-in p{
+    margin: 0% 17%;
+    font-family: 'Asap', sans-serif;
+    font-size: 18pt;
+    color: whitesmoke;
+    padding-top: 45px;
+}
+.important{
+    font-weight: bolder;
+}
+.email-input form{
+    padding-top: 60px;
+    display:flex;
+    justify-content: center;
+    padding-bottom:15px; 
+    text-align: center;
+}
+.email-input [type="email"]{
+    opacity: .3;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 60px;
+    width:269px;
+    border: none;
+    justify-content: center;
+    color: #ffff;
+}
+.placeholder {
+    text-align: center;
+    color: black;
+    opacity: 1;
+    font-family: 'Asap', sans-serif;
+    font-size: 20.6pt;
+  }
+::-webkit-input-placeholder{
+    opacity: 1;
+}
+.email-input button{
+    height: 62px;
+    border: none;
+    background-color: #2ecc71;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 81px;
+    font-family: 'Asap', sans-serif;
+    color: #ffff;
+    font-size: 20.3pt
+}
+.email-input p{
+    font-family: 'Asap', sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 75px;
+}
+
+
+.feed{
+    margin: 0% 0%;
+    text-align: center;
+    background-color: #ffff;
+    padding-top: 1px;
+}
+.feed-header h3{
+    font-family: 'Asap', sans-serif;
+    color: #333333;
+    font-size: 36pt;
+    padding-top: 30px;
+    font-weight: bolder;
+    padding-top: 40px;
+    margin-bottom: 35px;
+}
+
+.feed-header p{
+    font-family: 'Asap', sans-serif;
+    color: #999999;
+    font-size: 20pt;
+    margin: 0% 23%; 
+}
+.illustration{
+    padding: 8% 0%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+}
+.illustration-content{
+    display: flex;
+    justify-content: center;
+    margin: 0% 12%;
+}
+.illustration-img img{
+    height: 50%;
+    width: auto;
+    margin-top: 10%;
+}
+.illustration-header1{
+    margin-left:10%;
+}
+.illustration-header1 h6{
+    font-family: 'Asap', sans-serif;
+    color: #333333;
+    font-size: 36pt;
+    margin-top: 15%;
+    margin-bottom: 12%;
+    font-weight: bolder;
+}
+.illustration-header1 p{
+    font-family: 'Asap', sans-serif;
+    color: #999999;
+    font-size: 15pt;
+}
+
+.illustration-header2{
+    margin-right: 10%;
+}
+.illustration-header2 h6{
+    font-family: 'Asap', sans-serif;
+    color: #333333;
+    font-size: 36pt;
+    margin-top: 18%;
+    margin-bottom: 12%;
+    text-align: end;
+    font-weight: bolder;
+}
+.illustration-header2 p{
+    font-family: 'Asap', sans-serif;
+    color: #999999;
+    font-size: 15pt;
+    text-align: end;
+}
+.sign-up{
+    background-image: url("../images/bg2.png");
+    text-align: center;
+    padding: 8% 0%;
+}
+.sign-up h6{
+    font-family: 'Asap', sans-serif;
+    color: #ffffff;
+    font-size: 29pt;
+    margin-bottom: 3%;
+    font-weight: bolder;
+}
+.sign-up p{
+    font-family: 'Asap', sans-serif;
+    color: #ffffff;
+    font-size: 20pt;
+    margin-bottom: 11px;
+}
+.sign-up-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.sign-up-button a{
+    height: 60px;
+    width: 260px;
+    border-radius: 30px;
+    border: none;
+    padding: 0px 10px;
+}
+
+.upcoming{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.upcoming h6{
+    font-family: 'Asap', sans-serif;
+    color: #ffffff;
+    font-size: 48pt;
+    padding-top: 7.5%;
+    margin-left: -6%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 3% 0%;
+}
+.footer a{
+    padding: 0px 7px;
+}
