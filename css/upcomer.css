@@ -7,6 +7,7 @@
 body {
 	margin: 0;
     background-color: azure;
+    font-family: 'Asap', sans-serif;
   }
 
 .container{
@@ -30,7 +31,7 @@ body {
     padding-top: 10px;
 }
 .home{
-    font-family: 'Asap', sans-serif;
+    
     font-size: 13pt;
     color: #333333;
     padding-top: 1px;
@@ -38,7 +39,7 @@ body {
 }
 
 .about{
-    font-family: 'Asap', sans-serif;
+    
     font-size: 13pt;
     color: #999999;
     padding-top: 1px;
@@ -62,7 +63,7 @@ body {
     text-align: center;
 }
 .sign-in h1{
-    font-family: 'Asap', sans-serif;
+    
     margin: 0% 18%;
     padding-top:30px;
     font-weight: bold;
@@ -72,7 +73,7 @@ body {
 
 .sign-in p{
     margin: 0% 17%;
-    font-family: 'Asap', sans-serif;
+    
     font-size: 18pt;
     color: whitesmoke;
     padding-top: 45px;
@@ -101,7 +102,7 @@ body {
     text-align: center;
     color: black;
     opacity: 1;
-    font-family: 'Asap', sans-serif;
+    
     font-size: 20.6pt;
   }
 ::-webkit-input-placeholder{
@@ -114,12 +115,12 @@ body {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     width: 81px;
-    font-family: 'Asap', sans-serif;
+    
     color: #ffff;
     font-size: 20.3pt
 }
 .email-input p{
-    font-family: 'Asap', sans-serif;
+    
     font-size: 12pt;
     color: #ffffff;
     padding-top: 1px;
@@ -134,7 +135,7 @@ body {
     padding-top: 1px;
 }
 .feed-header h3{
-    font-family: 'Asap', sans-serif;
+    
     color: #333333;
     font-size: 36pt;
     padding-top: 30px;
@@ -144,7 +145,7 @@ body {
 }
 
 .feed-header p{
-    font-family: 'Asap', sans-serif;
+    
     color: #999999;
     font-size: 20pt;
     margin: 0% 23%; 
@@ -169,7 +170,7 @@ body {
     margin-left:10%;
 }
 .illustration-header1 h6{
-    font-family: 'Asap', sans-serif;
+    
     color: #333333;
     font-size: 36pt;
     margin-top: 15%;
@@ -177,7 +178,7 @@ body {
     font-weight: bolder;
 }
 .illustration-header1 p{
-    font-family: 'Asap', sans-serif;
+    
     color: #999999;
     font-size: 15pt;
 }
@@ -186,7 +187,7 @@ body {
     margin-right: 10%;
 }
 .illustration-header2 h6{
-    font-family: 'Asap', sans-serif;
+    
     color: #333333;
     font-size: 36pt;
     margin-top: 18%;
@@ -195,7 +196,7 @@ body {
     font-weight: bolder;
 }
 .illustration-header2 p{
-    font-family: 'Asap', sans-serif;
+    
     color: #999999;
     font-size: 15pt;
     text-align: end;
@@ -206,14 +207,14 @@ body {
     padding: 8% 0%;
 }
 .sign-up h6{
-    font-family: 'Asap', sans-serif;
+    
     color: #ffffff;
     font-size: 29pt;
     margin-bottom: 3%;
     font-weight: bolder;
 }
 .sign-up p{
-    font-family: 'Asap', sans-serif;
+    
     color: #ffffff;
     font-size: 20pt;
     margin-bottom: 11px;
@@ -238,7 +239,7 @@ body {
     padding-top: 25px;
 }
 .upcoming h6{
-    font-family: 'Asap', sans-serif;
+    
     color: #ffffff;
     font-size: 48pt;
     padding-top: 7.5%;
