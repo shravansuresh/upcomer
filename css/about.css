@@ -75,6 +75,9 @@ body {
 .illustration-content{
     margin-right: 6%;
 }
+.illustration-content img{
+    padding-top: 5px;
+}
 .illustration-content p{
     
     color: #999999;
@@ -266,4 +269,34 @@ body {
 }
 .footer a{
     padding: 0px 7px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .navbar{
+        margin: 0 8%;
+    }
+    .illustration{
+        margin: 0 9%;
+    }
+    .circle-top{
+        margin: -46px 45.5%;
+    }
+    .circle-bottom{
+        margin: -46px 45.5%;
+    }
+    .section-3 p {
+        font-size: 11pt;
+        margin: 4% 9%;
+        line-height: 1.6;
+    }
+    .upcoming h6 {
+        padding-top: 9.5%;
+        margin-left: -8%;
+    }
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    .section-3 p {
+        font-size: 5.5pt;
+        margin: 4% 8%;
+    }
 }
