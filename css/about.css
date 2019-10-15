@@ -12,15 +12,14 @@ body {
 
 .container{
     
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #999999;
+    border-bottom: 1px solid #999999;
+    box-shadow: 0px 1px 10px #999999;  
 }
 
 .navbar{
     margin-left: 15%;
     margin-right: 15%;
-    padding: 1% 0%;
+    padding: 1% 0;
     display: flex;
     justify-content: space-between;
 }
@@ -62,7 +61,7 @@ body {
 .illustration{
     display: flex;
     justify-content: center;
-    margin: 0% 16%;
+    margin: 0 16%;
     padding-top: 5%;
 }
 .illustration-content h6{
@@ -222,17 +221,17 @@ body {
     padding-left: 23px;
     font-weight: bolder;
 }
-.section-3{
+.hello-upcomer{
     text-align: center;
     margin: 100px;
 }
-.section-3 h2{
+.hello-upcomer h2{
     font-size: 30pt;
     font-weight: bolder;
     color: #333333;
     margin-bottom: 30px;
 }
-.section-3 p{
+.hello-upcomer p{
     font-size: 13pt;
     color: #999999;
     margin: 4% 18%;
@@ -241,7 +240,7 @@ body {
 .important{
     font-weight: bolder;
 }
-.hello-upcomer{
+.hello-upcomer-btn{
     border: none;
     background-color: #2eee71;
     text-align: center;
@@ -265,12 +264,12 @@ body {
 .footer{
     display: flex;
     justify-content: center;
-    padding: 3% 0%;
+    padding: 3% 0;
 }
 .footer a{
     padding: 0px 7px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
     .navbar{
         margin: 0 8%;
     }
@@ -283,20 +282,34 @@ body {
     .circle-bottom{
         margin: -46px 45.5%;
     }
-    .section-3 p {
+    .hello-upcomer p {
         font-size: 11pt;
         margin: 4% 9%;
-        line-height: 1.6;
+        line-height: 1.2;
     }
     .upcoming h6 {
         padding-top: 9.5%;
         margin-left: -8%;
     }
+    .speech-bubble-right {
+        margin-top: 26.3%;
+        margin-bottom: -14.5%;
+    }
+    .speech-bubble-left {
+        margin-top: 5%;
+        margin-bottom: 56px;
+    }
 
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){ 
-    .section-3 p {
+    .hello-upcomer p {
         font-size: 5.5pt;
         margin: 4% 8%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1300px){
+    .illustration-content img{
+        width: 231%;
+        height: auto;
     }
 }
